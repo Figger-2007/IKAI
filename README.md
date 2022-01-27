@@ -125,7 +125,8 @@ function DiscordLib:Window(text)
 	TopFrame.Parent = MainFrame
 	TopFrame.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
 	TopFrame.BackgroundTransparency = 1.000
-	TopFrame.BorderSizePixel = 0
+	TopFrame.BorderColor3 = Color3.fromRGB(255, 40, 55)
+	TopFrame.BorderSizePixel = 1
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
 	TopFrame.Size = UDim2.new(0, 681, 0, 22)
 	
