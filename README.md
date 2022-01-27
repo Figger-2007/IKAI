@@ -146,7 +146,7 @@ function DiscordLib:Window(text)
 	Title.Size = UDim2.new(0, 192, 0, 23)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(255, 35, 50)
+	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 13.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -3157,7 +3157,7 @@ function DiscordLib:Window(text)
 				Label.AutoButtonColor = false
 				Label.Font = Enum.Font.Gotham
 				Label.Text = ""
-				Label.TextColor3 = Color3.fromRGB(255, 35, 55)
+				Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 				Label.TextSize = 14.000
 
 				LabelTitle.Name = "LabelTitle"
@@ -3168,7 +3168,7 @@ function DiscordLib:Window(text)
 				LabelTitle.Size = UDim2.new(0, 200, 0, 30)
 				LabelTitle.Font = Enum.Font.Gotham
 				LabelTitle.Text = text
-				LabelTitle.TextColor3 = Color3.fromRGB(255, 40, 55)
+				LabelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 				LabelTitle.TextSize = 14.000
 				LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
 				
