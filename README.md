@@ -2263,7 +2263,7 @@ function DiscordLib:Window(text)
                 end
 				
 				Toggle.MouseButton1Click:Connect(function()
-					if toggled == false then
+					if toggled == true then
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
