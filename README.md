@@ -2171,7 +2171,7 @@ function DiscordLib:Window(text)
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
 			end
-			function ChannelContent:Toggle(text,default,callback)
+			function ChannelContent:Toggle(text,toggled,callback)
 				local toggled = false
 				local Toggle = Instance.new("TextButton")
 				local ToggleTitle = Instance.new("TextLabel")
