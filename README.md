@@ -3157,7 +3157,7 @@ function DiscordLib:Window(text)
 				Label.Font = Enum.Font.Gotham
 				Label.Text = ""
 				Label.TextColor3 = Color3.fromRGB(255, 35, 55)
-				Label.TextSize = 14.000
+				Label.TextSize = 20.000
 
 				LabelTitle.Name = "LabelTitle"
 				LabelTitle.Parent = Label
