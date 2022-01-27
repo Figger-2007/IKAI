@@ -3157,7 +3157,7 @@ function DiscordLib:Window(text)
 				Label.Font = Enum.Font.Gotham
 				Label.Text = ""
 				Label.TextColor3 = Color3.fromRGB(255, 35, 55)
-				Label.TextSize = 20.000
+				Label.TextSize = 14.000
 
 				LabelTitle.Name = "LabelTitle"
 				LabelTitle.Parent = Label
@@ -3168,7 +3168,7 @@ function DiscordLib:Window(text)
 				LabelTitle.Font = Enum.Font.Gotham
 				LabelTitle.Text = text
 				LabelTitle.TextColor3 = Color3.fromRGB(127, 131, 137)
-				LabelTitle.TextSize = 14.000
+				LabelTitle.TextSize = 20.000
 				LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
 				
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
