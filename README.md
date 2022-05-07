@@ -4,15 +4,12 @@ repeat wait()
         if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Visible == true then
                 for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Pirates.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
-                    wait(2)
-                    v.Function()
-                    wait(5)
-                    v.Function()
+                    IKAI = true
                 end
             end
         end
     end)
-until game.Players.localPlayer.Neutral == false
+until IKAI == true
 
 _G.Setting_table = {
     Auto_Farm = false,
